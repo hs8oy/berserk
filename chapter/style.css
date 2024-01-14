@@ -34,3 +34,68 @@ a:hover{
     background: rgb(2, 53, 148);
     
 }
+
+@media screen and (max-width:400px) {
+    *{padding: 0;
+        margin: 0;
+        font-family: 'Almarai', sans-serif;
+        }
+        body{
+            background: url(https://4kwallpapers.com/images/wallpapers/berserker-armor-2880x1800-13643.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        h1{
+            font-size: 18px;
+            text-align: center;
+            margin: 1px 0 ;
+        }
+        div{
+            background: rgba(0, 0, 0, 0.836);
+            margin: 120px 10px;
+            border-radius: 13px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            background: rgb(88, 20, 17);
+            font-size: 17px;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 10px  10px;
+            transition: 0.5s ease;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        *{padding: 0;
+            margin: 0;
+            font-family: 'Almarai', sans-serif;
+            }
+            body{
+                background: url(https://4kwallpapers.com/images/wallpapers/berserker-armor-2880x1800-13643.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            h1{
+                font-size: 18px;
+                text-align: center;
+                margin: 1px 0 ;
+            }
+            div{
+                background: rgba(0, 0, 0, 0.836);
+                margin: 120px auto;
+                border-radius: 13px;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
+                background: rgb(88, 20, 17);
+                font-size: 17px;
+                text-align: center;
+                padding: 10px 20px;
+                margin: 10px  10px;
+                transition: 0.5s ease;
+            }
+
+        }
