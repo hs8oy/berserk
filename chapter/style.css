@@ -31,7 +31,9 @@ a{
     transition: 0.5s ease;
 }
 a:hover{
-    background: rgb(2, 53, 148);
+    background: #fff;
+    color:#000;
+
     
 }
 
@@ -65,11 +67,11 @@ a:hover{
             margin: 10px  10px;
             transition: 0.5s ease;
         }
-a:hover{
-    background: rgb(2, 53, 148);
-    
+         a:hover{
+    background: #fff;
+    color:#000;
 }
-    }
+}
 
     @media screen and (max-width:768px) {
         *{padding: 0;
@@ -100,10 +102,10 @@ a:hover{
                 padding: 10px 20px;
                 margin: 10px  10px;
                 transition: 0.5s ease;
-            }
-a:hover{
+          }
+       a:hover{
     background: rgb(2, 53, 148);
     
 }
 
-        }
+       }
