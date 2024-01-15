@@ -1,111 +1,90 @@
 *{padding: 0;
-margin: 0;
-font-family: 'Almarai', sans-serif;
-}
-body{
-    background: url(https://4kwallpapers.com/images/wallpapers/berserker-armor-2880x1800-13643.jpg);
-    background-size: cover;
-}
-h1{
-    color: #fff;
-    text-align: center;
-    margin-top: 80px;
-    font-size: 33px;
-}
-div{
-    background: rgba(0, 0, 0, 0.829);
-    margin: 120px auto;
-    width: fit-content;
-    padding: 13px 100px ;
-    border-radius: 13px;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-    background: rgb(78, 7, 7);
-    padding: 10px 120px;
-    font-size: 24px;
-    border-radius: 8px;
-    display: block;
-    margin: 20px 0;
-    transition: 0.5s ease;
-}
-a:hover{
-    background: #fff;
-    color:#000;
-
+    margin: 0;
+    font-family: 'Almarai', sans-serif;
+    }
+    body{
+        background: url(https://i.pinimg.com/originals/ed/9c/7c/ed9c7c98804c2fa4a4bdd5588444ee5e.jpg);
+    }
+    h1{
+        color: #fff;
+        text-align: center;
+        margin-top: 22px;
+        font-size: 33px;
+    }
+    div{
+        background: rgba(0, 0, 0, 0.671);
+        margin: 140px 300px;
+        border-radius: 13px;
+        padding: 20px 0;
+    }
+    .ch{
+        text-decoration: none;
+                color: #fff;
+                background: #581411;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: center;
+                margin: 15px 200px;
+                font-size: 24px;
+                font-weight: 800;
+                border-radius: 10px;
+                transition: 0.5s ease;
+    }
+    .ch:hover{
+        background: #fff;
+        color: #000;
+    }
+    @media (min-width:700px) and (max-width:1170px){
+        div{
+            background: rgba(0, 0, 0, 0.671);
+            margin: 60px 100px;
+            border-radius: 13px;
+            padding: 20px 0;
+        }
+        .ch{
+                    text-decoration: none;
+                    color: #fff;
+                    background: #581411;
+                    padding: 10px auto;
+                    display: flex;
+                    justify-content: center;
+                    margin: 15px 80px;
+                    font-size: 24px;
+                    font-weight: 800;
+                    border-radius: 10px;
+                    transition: 0.5s ease;
+        }
     
-}
-
-@media screen and (max-width:400px) {
-    *{padding: 0;
-        margin: 0;
-        font-family: 'Almarai', sans-serif;
-        }
-        body{
-            background: url(https://4kwallpapers.com/images/wallpapers/berserker-armor-2880x1800-13643.jpg);
-            background-position: center;
-            background-size: cover;
-        }
+    }
+    
+    @media (min-width:300px) and (max-width:700px){
+    
         h1{
-            font-size: 18px;
+            color: #fff;
             text-align: center;
-            margin: 1px 0 ;
+            margin-top: 15px;
+            font-size: 20px;
         }
         div{
-            background: rgba(0, 0, 0, 0.836);
-            margin: 120px 10px;
+            background: rgba(0, 0, 0, 0.671);
+            margin: 60px 30px;
             border-radius: 13px;
+            padding: 20px 0;
         }
-        a{
-            text-decoration: none;
-            color: #fff;
-            background: rgb(88, 20, 17);
-            font-size: 17px;
-            text-align: center;
-            padding: 10px 20px;
-            margin: 10px  10px;
-            transition: 0.5s ease;
+        .ch{
+                    text-decoration: none;
+                    color: #fff;
+                    background: #581411;
+                    padding: 10px auto;
+                    display: flex;
+                    justify-content: center;
+                    margin: 15px 40px;
+                    font-size: 20px;
+                    font-weight: 800;
+                    border-radius: 10px;
+                    transition: 0.5s ease;
         }
-         a:hover{
-    background: #fff;
-    color:#000;
-}
-}
-
-    @media screen and (max-width:768px) {
-        *{padding: 0;
-            margin: 0;
-            font-family: 'Almarai', sans-serif;
-            }
-            body{
-                background: url(https://4kwallpapers.com/images/wallpapers/berserker-armor-2880x1800-13643.jpg);
-                background-position: center;
-                background-size: cover;
-            }
-            h1{
-                font-size: 18px;
-                text-align: center;
-                margin: 1px 0 ;
-            }
-            div{
-                background: rgba(0, 0, 0, 0.836);
-                margin: 120px auto;
-                border-radius: 13px;
-            }
-            a{
-                text-decoration: none;
-                color: #fff;
-                background: rgb(88, 20, 17);
-                font-size: 17px;
-                text-align: center;
-                padding: 10px 20px;
-                margin: 10px  10px;
-                transition: 0.5s ease;
-          }
-       a:hover{
-    background: rgb(2, 53, 148);
     
-}
-
-       }
+    }
+    
+    
