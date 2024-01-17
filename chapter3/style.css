@@ -1,0 +1,92 @@
+*{padding: 0;
+    margin: 0;
+    font-family: 'Almarai', sans-serif;
+    }
+    body{
+        background: url(https://fc09.deviantart.net/fs70/i/2013/100/2/4/berserk_film_by_lalykiasca-d612zma.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    h1{
+        color: #fff;
+        text-align: center;
+        margin-top: 22px;
+        font-size: 33px;
+    }
+    div{
+        background: rgba(0, 0, 0, 0.671);
+        margin: 140px 300px;
+        border-radius: 13px;
+        padding: 20px 0;
+    }
+    .ch{
+        text-decoration: none;
+                color: #fff;
+                background: #581411;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: center;
+                margin: 15px 200px;
+                font-size: 24px;
+                font-weight: 800;
+                border-radius: 10px;
+                transition: 0.5s ease;
+    }
+    .ch:hover{
+        background: #fff;
+        color: #000;
+    }
+    @media (min-width:700px) and (max-width:1170px){
+        div{
+            background: rgba(0, 0, 0, 0.671);
+            margin: 60px 100px;
+            border-radius: 13px;
+            padding: 20px 0;
+        }
+        .ch{
+                    text-decoration: none;
+                    color: #fff;
+                    background: #581411;
+                    padding: 10px auto;
+                    display: flex;
+                    justify-content: center;
+                    margin: 15px 80px;
+                    font-size: 24px;
+                    font-weight: 800;
+                    border-radius: 10px;
+                    transition: 0.5s ease;
+        }
+    
+    }
+    
+    @media (min-width:300px) and (max-width:700px){
+    
+        h1{
+            color: #fff;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        div{
+            background: rgba(0, 0, 0, 0.671);
+            margin: 60px 30px;
+            border-radius: 13px;
+            padding: 20px 0;
+        }
+        .ch{
+                    text-decoration: none;
+                    color: #fff;
+                    background: #581411;
+                    padding: 10px auto;
+                    display: flex;
+                    justify-content: center;
+                    margin: 15px 40px;
+                    font-size: 20px;
+                    font-weight: 800;
+                    border-radius: 10px;
+                    transition: 0.5s ease;
+        }
+    
+    }
+    
+    
