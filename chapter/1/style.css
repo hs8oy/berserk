@@ -70,26 +70,8 @@ p{
     border: solid 1px rgb(88, 0, 0);
 }
 
-.i{
-    width: 600px;
-}
 .o{
     width: 600px;
-}
-
-::-webkit-scrollbar{
-    width: 8px;
-}
-::-webkit-scrollbar-track{
-    background: #3a3939;
-}
-
-::-webkit-scrollbar-thumb{
-    background: rgba(27, 25, 29, 0.493);
-    border-radius: 12px;
-}
-::-webkit-scrollbar-thumb:hover{
-    background: rgb(27, 25, 29);
 }
 
 @media (min-width:950px) and (max-width:1040px){
